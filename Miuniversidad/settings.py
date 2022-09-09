@@ -25,7 +25,7 @@ SECRET_KEY = 'xp4$-xtaztyy5vm#9hprtw)hdft#t@2ucq^cjs(_&&gh3j)l7n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Miuniversidad-yt.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
