@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'Miuniversidad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd1p7j2uc2mtj1r',
-        'HOST': 'ec2-34-199-68-114.compute-1.amazonaws.com',
-        'USER': 'cyotjhjrqcbjwt',
-        'PASSWORD': '16a90eeaae3961cdba788c58c4dff0abdd6cf6335a90d5df5a3124cd42ee8a80',
+        'NAME': 'dffhoj3ei04nq9',
+        'HOST': 'ec2-3-219-19-205.compute-1.amazonaws.com',
+        'USER': 'cmmdbiionpzdbs',
+        'PASSWORD': '130fee1aec53b05871b5670dd02ae89618366bd0dd996a766d8bcd42f88bdcaa',
         'PORT': 5432,
     }
 }
