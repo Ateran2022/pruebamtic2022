@@ -1,1 +1,1 @@
-web: gunicorn Miuniversidad.wsgi
+gunicorn Miuniversidad.wsgi
