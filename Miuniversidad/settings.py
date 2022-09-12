@@ -25,7 +25,7 @@ SECRET_KEY = 'xp4$-xtaztyy5vm#9hprtw)hdft#t@2ucq^cjs(_&&gh3j)l7n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Miuniversidad.herokuapp.com']
 
 
 # Application definition
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'Miuniversidad.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dffhoj3ei04nq9',
-        'HOST': 'ec2-3-219-19-205.compute-1.amazonaws.com',
-        'USER': 'cmmdbiionpzdbs',
-        'PASSWORD': '130fee1aec53b05871b5670dd02ae89618366bd0dd996a766d8bcd42f88bdcaa',
-        'PORT': 5432,
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Miuniversidad',
+        'HOST': '127.0.0.1',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'PORT': 3306,
     }
 }
 
