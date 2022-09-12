@@ -1,1 +1,1 @@
-gunicorn Miuniversidad.wsgi
+web: gunicorn gettingstarted.wsgi
